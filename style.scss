@@ -1,0 +1,285 @@
+
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    width: 100% !important;
+    
+    p{
+        font-size: 20px;
+    }
+}
+img{
+    filter: opacity(.77);
+}
+
+.side-nav{
+    width: 40% !important;
+}
+
+header#show{
+    background-image: url(img/paint.png);
+   
+    height: 100vh;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    color: #fff;
+    display: grid;
+    align-items: center;
+    align-content: center;
+justify-content: center;
+justify-items: center;
+text-align: center;
+        h2,h4{
+            padding: 2rem;
+        font-weight: bolder;
+    }
+    a{
+        margin-top: 1rem;
+        width: 100px;
+        font-size: 20px;
+        color:#fff;
+    border: 2px solid #ccc;
+    padding: .5rem;
+
+    }
+    filter: opacity(.77);
+
+}
+
+main#color{
+display: grid;
+align-content: center;
+align-items: center;
+text-align: center;
+text-align: center;
+padding: 2rem;
+
+}
+main#welcome{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+
+    div{
+        h2{
+            font-weight: bolder;
+        }
+      
+        height: 500px;
+        display: grid;
+        align-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 2rem;
+        img{
+            width: 70%;
+           border-radius: 5%;
+
+    }
+
+}
+}
+
+main#school{
+   
+   filter: opacity(.77);
+       
+        font-size: 20px;
+    font-weight: bolder;
+    color: #fff;
+  
+ height: 500px;
+ display: grid;
+ align-items: center;
+ align-content: center;
+ justify-items: center;
+ justify-content: center;
+ text-align: center;
+    background-image: url(img/path.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+
+main#intro{
+   
+
+    display: grid !important;
+    align-content: center !important;
+    align-items: center !important;
+    justify-content: center !important;
+    justify-items: center !important;
+    
+    grid-template-columns: repeat(2, 1fr) !important;
+padding: 3rem !important;
+grid-gap: 1rem !important;
+
+div{
+    padding: 1rem;
+}
+}
+
+
+main#dark{
+ margin-bottom: 1rem !important;
+    background-image: url(img/scrary.png);
+    padding: 1rem;
+    width: 100%;
+    color: #fff;
+    background-size: cover;
+    height: 400px;
+    display: grid;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+    justify-content: center;
+}
+div.card.large{
+    height: 530px !important;
+}
+
+
+
+section#boxes{
+
+
+  
+
+    display: grid !important;
+    grid-template-columns: repeat(3, 1fr) !important;
+    grid-gap: 2rem !important;
+
+   
+
+    span.card-title{
+        color: #fff !important;
+        font-weight: bolder !important;
+        text-transform: uppercase !important;
+    }
+    img{
+      padding: 1rem !important;
+    }
+
+}
+
+#game{
+   background-image: url(img/paint.png);
+   background-position: center;
+   background-size: cover;
+   background-attachment: fixed;
+   height: 100vh !important;
+  filter: opacity(.77);
+  margin: 2rem !important;
+  margin: auto;
+  width: 100% !important;
+ 
+   
+}
+
+section#reviews{
+img{
+   width: 400px ;
+   
+   
+    padding: 1rem !important;
+}
+   
+}
+
+#span{
+    font-weight: bolder;
+   
+}
+
+
+footer{
+    text-align: center;
+    margin: auto;
+    display: grid;
+   align-items: center;
+   align-content: center;
+   justify-items: center;
+   justify-content: center;
+   background: #333;
+   color: white;
+}
+
+
+//media query section
+
+@media(max-width:800px){
+    main#intro{
+        display: grid !important;
+        grid-template-columns: 1fr !important;
+    }
+
+    section#boxes{
+        display: grid !important;
+        grid-template-columns: 1fr !important;
+
+       
+       
+    }
+
+    
+}
+
+//galaxy fold
+
+@media(max-width:280px){
+
+
+    body{
+        margin: auto !important;
+        display: grid !important;
+        align-items: center !important;
+        align-content: center !important;
+        justify-items: center !important;
+        justify-content: center !important;
+        text-align: center !important;
+        padding: 1rem !important;
+    }
+ 
+header#show{
+    width: 100% !important;
+    margin: auto !important;
+    padding: 1rem !important;
+}
+
+section#boxes{
+
+    
+   .card.large{
+
+    padding-right: 2rem !important;
+     
+    img{
+   padding: 3rem !important;
+    
+    } 
+    p{
+        padding: 1rem;
+    }
+   }
+}
+
+footer{
+    margin: auto;
+    text-align: center;
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+}
+}
+
